@@ -1,0 +1,57 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Raw datasets and biological feature files
+data/
+struct_features/
+*.npz
+*.npy
+*.pkl
+*.pickle
+Human_SL_filtered.csv
+Human_nonSL.csv
+
+# Trained model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Training logs
+logs/
+*.log
+
+# Temporary experiment outputs
+local_runs/
+tmp/
+temp/
+.cache/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Keep verified, lightweight result JSON files in results/

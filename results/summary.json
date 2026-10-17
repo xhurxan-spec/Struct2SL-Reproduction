@@ -1,0 +1,95 @@
+{
+  "experiment": "Struct2SL-Reproduction",
+  "evaluation_threshold": 0.5,
+  "runs": [
+    {
+      "accuracy": 0.9494244197018306,
+      "roc_auc": 0.9539491899146774,
+      "average_precision": 0.9935253810637847,
+      "f1": 0.9720192106911673,
+      "precision": 0.9641673570836785,
+      "recall": 0.98,
+      "specificity": 0.6848816029143898,
+      "run": 1,
+      "seed": 42,
+      "best_epoch": 78,
+      "best_validation_loss": 0.1301965580057742,
+      "elapsed_seconds": 199.09
+    },
+    {
+      "accuracy": 0.9441404038497829,
+      "roc_auc": 0.9545385869044195,
+      "average_precision": 0.9936733364345678,
+      "f1": 0.9693835333057509,
+      "precision": 0.9528263521756811,
+      "recall": 0.9865263157894737,
+      "specificity": 0.5774134790528234,
+      "run": 2,
+      "seed": 43,
+      "best_epoch": 62,
+      "best_validation_loss": 0.1376363180244147,
+      "elapsed_seconds": 164.76
+    },
+    {
+      "accuracy": 0.9486695602943952,
+      "roc_auc": 0.956167577413479,
+      "average_precision": 0.9937877002610632,
+      "f1": 0.9716489472587033,
+      "precision": 0.9622213047068539,
+      "recall": 0.9812631578947368,
+      "specificity": 0.6666666666666666,
+      "run": 3,
+      "seed": 44,
+      "best_epoch": 63,
+      "best_validation_loss": 0.13503457525216822,
+      "elapsed_seconds": 151.01
+    },
+    {
+      "accuracy": 0.9467824117758068,
+      "roc_auc": 0.952107755728118,
+      "average_precision": 0.9933085713817147,
+      "f1": 0.9707165109034268,
+      "precision": 0.9577868852459016,
+      "recall": 0.984,
+      "specificity": 0.6247723132969034,
+      "run": 4,
+      "seed": 45,
+      "best_epoch": 73,
+      "best_validation_loss": 0.13416089067485795,
+      "elapsed_seconds": 188.16
+    },
+    {
+      "accuracy": 0.9445178335535006,
+      "roc_auc": 0.9517290767903366,
+      "average_precision": 0.9931814902577758,
+      "f1": 0.9694894146948941,
+      "precision": 0.9559967253376995,
+      "recall": 0.9833684210526316,
+      "specificity": 0.6083788706739527,
+      "run": 5,
+      "seed": 46,
+      "best_epoch": 43,
+      "best_validation_loss": 0.129598114778524,
+      "elapsed_seconds": 128.74
+    }
+  ],
+  "mean": {
+    "accuracy": 0.9467069258350632,
+    "roc_auc": 0.9536984373502062,
+    "average_precision": 0.9934952958797811,
+    "f1": 0.9706515233707884,
+    "precision": 0.9585997249099629,
+    "recall": 0.9830315789473684,
+    "specificity": 0.6324225865209472
+  },
+  "standard_deviation": {
+    "accuracy": 0.0021270432615369842,
+    "roc_auc": 0.0016293575305445813,
+    "average_precision": 0.00022425159362579863,
+    "f1": 0.0010796241732685867,
+    "precision": 0.004120255236479039,
+    "recall": 0.0022619580662843514,
+    "specificity": 0.03895442024357973
+  },
+  "note": "Repeated runs use the same stratified train/validation/test partition with different model initialization and shuffle seeds. The test set is not used for checkpoint selection."
+}

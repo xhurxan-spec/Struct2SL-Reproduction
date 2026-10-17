@@ -1,0 +1,52 @@
+{
+  "experiment_name": "Struct2SL-Reproduction",
+  "description": "Corrected Struct2SL reproduction experiment",
+
+  "data": {
+    "structure_dir": "data/struct_features",
+    "sequence_file": "data/sequence_features.npz",
+    "ppi_file": "data/ppi_features.npz",
+    "positive_pairs_file": "data/Human_SL_filtered.csv",
+    "negative_pairs_file": "data/Human_nonSL.csv",
+    "input_size": 2560
+  },
+
+  "model": {
+    "hidden_sizes": [256, 128, 64],
+    "output_size": 1,
+    "dropout": 0.5
+  },
+
+  "training": {
+    "seed": 42,
+    "test_size": 0.2,
+    "validation_size": 0.2,
+    "batch_size": 64,
+    "learning_rate": 0.004,
+    "weight_decay": 0.001,
+    "max_epochs": 10000,
+    "early_stopping_patience": 15,
+    "gradient_clip_norm": 1.0,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 5
+  },
+
+  "evaluation": {
+    "classification_threshold": 0.5,
+    "metrics": [
+      "accuracy",
+      "roc_auc",
+      "average_precision",
+      "f1",
+      "precision",
+      "recall",
+      "specificity"
+    ]
+  },
+
+  "reproducibility": {
+    "num_repeated_runs": 5,
+    "save_best_checkpoint": true,
+    "fit_scaler_on_training_data_only": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.9441404038497829,
+  "roc_auc": 0.9545385869044195,
+  "average_precision": 0.9936733364345678,
+  "f1": 0.9693835333057509,
+  "precision": 0.9528263521756811,
+  "recall": 0.9865263157894737,
+  "specificity": 0.5774134790528234,
+  "run": 2,
+  "seed": 43,
+  "best_epoch": 62,
+  "best_validation_loss": 0.1376363180244147,
+  "elapsed_seconds": 164.76
+}

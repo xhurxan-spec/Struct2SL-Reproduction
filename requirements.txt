@@ -1,0 +1,7 @@
+# Runtime dependencies for the corrected reproduction.
+# PyTorch installation may need to follow the platform/CUDA instructions
+# at https://pytorch.org/get-started/locally/.
+numpy
+pandas
+scikit-learn
+torch

@@ -1,0 +1,56 @@
+{
+  "feature_sources": {
+    "structure": {
+      "genes": 17180,
+      "dimensions": [
+        128
+      ],
+      "invalid_gene_count": 0,
+      "invalid_gene_examples": []
+    },
+    "sequence": {
+      "genes": 17180,
+      "dimensions": [
+        1024
+      ],
+      "invalid_gene_count": 0,
+      "invalid_gene_examples": []
+    },
+    "ppi": {
+      "genes": 17180,
+      "dimensions": [
+        128
+      ],
+      "invalid_gene_count": 0,
+      "invalid_gene_examples": []
+    }
+  },
+  "shared_gene_count": 17180,
+  "feature_dimensions_per_gene": {
+    "structure": [
+      128
+    ],
+    "sequence": [
+      1024
+    ],
+    "ppi": [
+      128
+    ]
+  },
+  "dataset_coverage": {
+    "SL": {
+      "file": "data/Human_SL_filtered.csv",
+      "original_rows": 23749,
+      "unique_ordered_pairs": 23749,
+      "rows_with_both_genes_covered": 23749,
+      "rows_excluded_for_missing_features": 0
+    },
+    "nonSL": {
+      "file": "data/Human_nonSL.csv",
+      "original_rows": 2899,
+      "unique_ordered_pairs": 2899,
+      "rows_with_both_genes_covered": 2745,
+      "rows_excluded_for_missing_features": 154
+    }
+  }
+}
